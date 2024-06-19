@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: diamond0816/bansira-technicaltask
+  tag: 0b59676d3c8c24923132843c3ac93cb7ef587bca
+
+service:
+  type: ClusterIP
+  port: 3000
+  targetPort: 3000
